@@ -1,0 +1,159 @@
+body {
+    background-color:rgb(20, 20, 20);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.neueFilme {
+    display: flex;
+    list-style-type: none;
+}
+.neueFilme  > li{
+    border: 1px solid white;
+    color: white;
+    margin-right: 10px;
+    height: 200px;
+    width: 150px;
+}
+.neueFilme > li:hover{
+    transform: scale(1.2);
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+.derzeitBeliebt{
+    display: flex;
+    list-style-type: none;
+}
+.derzeitBeliebt > li{
+    border: 1px solid white;
+    color: white;
+    margin-right: 10px;
+    height: 200px;
+    width: 150px;
+}
+.derzeitBeliebt > li:hover{
+    transform: scale(1.2);
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+.nochmalAnsehen {
+    display: flex;
+    list-style-type: none;
+}
+.nochmalAnsehen  > li{
+    border: 1px solid white;
+    color: white;
+    margin-right: 10px;
+    height: 200px;
+    width: 150px;
+}
+.nochmalAnsehen > li:hover{
+    transform: scale(1.2);
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.list-container > h3 {
+    color: white;
+    padding-inline-start: 40px;
+}
+
+.detailsNeueFilme {
+    margin-left: 40px;
+    color: white
+}
+.detailsNeueFilme > h3{
+    color:tomato
+}
+.detailsNeueFilme {
+    display: none;
+}
+
+
+.detailsDerzeitBeliebt {
+    margin-left: 40px;
+    color: white
+}
+.detailsDerzeitBeliebt > h3{
+    color:tomato
+}
+.detailsDerzeitBeliebt {
+    display: none;
+}
+
+.detailsNochmalAnsehen {
+    margin-left: 40px;
+    color: white
+}
+.detailsNochmalAnsehen > h3{
+    color:tomato
+}
+.detailsNochmalAnsehen {
+    display: none;
+}
+
+
+.list-view {
+    display: flex;
+}
+
+.button {
+    height: 80px;
+    width: 120px;
+    margin: auto 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#addNewBtn0 {
+    width: fit-content;
+}
+#addNewBtn1 {
+    width: fit-content;
+}
+#addNewBtn2 {
+    width: fit-content;
+}
+
+.inputFormBtn {
+    text-align: end;
+}
+
+.inputField {
+    color: aliceblue;
+    margin: 18px;
+}
+
+.inputForm {
+    margin-left: 20px;
+}
+
+.input-label {
+    display: flex;
+    padding-right: 5px;
+    justify-content: flex-end;
+}
+
+.input-label > input{
+    margin-left: 8px;
+}
+
+header {
+    color: aliceblue;
+}
+
+.left-side {
+    max-width: 75%;
+}
+
+.right-side {
+    width: 20%;
+    max-width: 20%;
+    margin-left: auto;
+}
